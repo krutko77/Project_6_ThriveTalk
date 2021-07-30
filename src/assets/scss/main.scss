@@ -1,0 +1,57 @@
+@import './base/normalize';
+
+@font-face {
+   font-family: "Larsseit";
+   src: url("../../assets/fonts/Larsseit.ttf") format("truetype");
+}
+
+@font-face {
+   font-family: "LarsseitMedium";
+   src: url("../../assets/fonts/Larsseit-Medium.ttf") format("truetype");
+}
+
+@font-face {
+   font-family: "LarsseitBold";
+   src: url("../../assets/fonts/Larsseit-Bold.ttf") format("truetype");
+}
+
+*,
+*::after,
+*:before {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+html,
+body {
+   font-family: "Larsseit", sans-serif;
+   font-size: 10px;
+}
+
+a {
+   text-decoration: none;
+   color: inherit;
+}
+
+ul {
+   list-style-type: none;
+}
+
+.container {
+   max-width: 1440px;
+   margin: 0 auto;
+}
+
+.text {
+   font-size: 24px;
+}
+
+@import './header';
+@import './menu';
+@import './services';
+@import './about';
+@import './holder';
+@import './sport';
+@import './grid';
+@import './footer';

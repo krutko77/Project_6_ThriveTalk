@@ -1,0 +1,79 @@
+.header {
+
+   &__inner {
+      // height: 840px;
+      padding: 20px 130px 0 180px;
+      background: url('./../images/header-bg-img.png') right no-repeat,
+         url('./../images/header-blau-bg-img.png') right top no-repeat,
+         url('./../images/header-bg.png') left no-repeat;
+   }
+
+   &__top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 170px;
+   }
+
+   &__title {
+      max-width: 460px;
+      font: 700 48px "LarsseitBold";
+      color: #22356F;
+      margin: 40px 0 65px;
+      letter-spacing: -2px;
+   }
+
+   &__text {
+      max-width: 485px;
+      font: 500 24px "LarsseitMedium";
+      color: #22356F;
+      line-height: 45px;
+      margin-bottom: 50px;
+   }
+
+   &__logo {
+      font: 500 24px "LarsseitMedium";
+      color: #62D0DF;
+      letter-spacing: -1px;
+   }
+
+   &__button {
+      width: 150px;
+      height: 50px;
+      border: none;
+      border-radius: 25px;
+      -webkit-border-radius: 25px;
+      -moz-border-radius: 25px;
+      -ms-border-radius: 25px;
+      -o-border-radius: 25px;
+      background-color: #62D0DF;
+      font: 700 14px "LarsseitBold";
+      color: white;
+      cursor: pointer;
+   }
+
+   &__links {
+      display: flex;
+   }
+
+   &__link {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 150px;
+      height: 50px;
+      font: 700 14px "LarsseitBold";
+      letter-spacing: 3px;
+      color: #F9B640;
+      margin: 0 25px 75px 0;
+
+      &:last-child {
+         margin-right: 0;
+      }
+
+      &--orange {
+         color: white;
+         background-color: #F9B640;
+      }
+   }
+}

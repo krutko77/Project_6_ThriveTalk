@@ -1,0 +1,25 @@
+.menu {
+
+   &__list {
+      flex: none;
+      display: flex;
+      justify-content: space-between;
+      width: 235px;
+      position: relative;
+
+      &::after {
+         content: "";
+         position: absolute;
+         width: 50px;
+         height: 5px;
+         top: 25px;
+         left: -5px;
+         background: url('./../images/header-line.png') center no-repeat;
+      }
+   }
+
+   &__item {
+      font: 400 14px "Larsseit";
+   }
+
+}

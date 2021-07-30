@@ -1,0 +1,47 @@
+.services {
+   // height: 610px;
+
+   &__wrap {
+      display: flex;
+      justify-content: space-between;
+      background-color: #62D0DF;
+   }
+
+   &__content {
+      padding: 155px 0 75px;
+      margin: 0 auto;
+      flex: 0 1 555px;
+   }
+
+   &__title {
+      margin: 0 0 85px;
+      font: 700 36px "LarsseitBold";
+      color: white;
+   }
+
+   &__text {
+      max-width: 555px;
+      font: 400 20px "Larsseit";
+      color: white;
+      line-height: 34px;
+   }
+
+   &__font-size {
+      font: 700 24px "LarsseitBold";
+      line-height: 36px;
+   }
+
+   &__wrapper {
+      width: 915px;
+   }
+
+   // &__img-wrap {
+   //    // object-fit: cover;
+
+   // }
+
+   &__img {
+      width: 100%;
+      object-fit: cover;
+   }
+}

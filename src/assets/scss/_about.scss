@@ -1,0 +1,24 @@
+.about {
+   // height: 380px;
+
+   &__wrap {
+      display: flex;
+      position: relative;
+      padding: 150px 0 50px;
+   }
+
+   &__title {
+      position: absolute;
+      top: 155px;
+      left: 105px;
+      font: 700 16px "LarsseitBold";
+   }
+
+   &__text {
+      max-width: 590px;
+      margin: 0 auto;
+      font: 400 24px "LarsseitMedium";
+      color: #22356F;
+      line-height: 36px;
+   }
+}

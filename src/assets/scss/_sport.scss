@@ -1,0 +1,64 @@
+.sport {
+
+   &__wrap {
+      display: flex;
+      padding-bottom: 120px;
+   }
+
+   &__item {
+      width: 360px;
+      height: 360px;
+      padding: 95px 0 0 80px;
+      color: white;
+
+      &--pink {
+         background-color: #FFE2DE;
+         ;
+      }
+
+      &--green {
+         background-color: #C4E769;
+      }
+
+      &--blue {
+         background-color: #62D0DF;
+      }
+
+      &--navy-blue {
+         background-color: #0052C1;
+      }
+   }
+
+   &__subtitle {
+      position: relative;
+      font: 700 32px "LarsseitBold";
+      letter-spacing: -0.5px;
+      max-width: 235px;
+
+      &::before {
+         content: "";
+         position: absolute;
+         width: 9px;
+         height: 9px;
+         border-radius: 4.5px;
+         background-color: #E9B730;
+         top: 10px;
+         left: -30px;
+         -webkit-border-radius: 4.5px;
+         -moz-border-radius: 4.5px;
+         -ms-border-radius: 4.5px;
+         -o-border-radius: 4.5px;
+      }
+
+      &::after {
+         content: "";
+         position: absolute;
+         width: 255px;
+         height: 2px;
+         background-color: white;
+         top: -30px;
+         left: -30px;
+
+      }
+   }
+}
