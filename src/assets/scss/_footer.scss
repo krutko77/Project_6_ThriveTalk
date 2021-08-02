@@ -1,0 +1,61 @@
+.footer {
+
+   &__wrap {
+      display: flex;
+   }
+
+   &__content-wrap {
+      display: flex;
+      padding: 95px 0 0 65px;
+      color: #22356F;
+   }
+
+   &__img {
+      object-fit: cover;
+      // width: 100px;
+   }
+
+   &__info {
+      max-width: 180px;
+      margin-right: 80px;
+   }
+
+   &__contact {
+      max-width: 170px;
+      margin-right: 95px;
+   }
+
+   &__text--contact {
+      margin-bottom: 25px;
+   }
+
+   &__link-email {
+      font: 700 14px "LarsseitBold";
+      line-height: 28px;
+      color: #62D0DF;
+   }
+
+   &__office-hours {
+      max-width: 110px;
+   }
+
+   &__subtitle {
+      font: 700 14px "LarsseitBold";
+      margin-bottom: 50px;
+   }
+
+   &__text {
+      font: 400 14px "Larsseit";
+      line-height: 24px;
+   }
+
+   &__bottom {
+      height: 80px;
+      background-color: #62D0DF;
+      padding: 25px 0 0 190px;
+      font: 700 18px "LarsseitBold";
+      letter-spacing: -0.5px;
+      color: white;
+   }
+
+}
