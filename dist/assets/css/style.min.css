@@ -487,6 +487,12 @@ ul {
   text-align: center;
   margin: 25px; }
 
+.sport__title {
+  font: 500 16px "LarsseitMedium";
+  letter-spacing: 1px;
+  text-align: center;
+  margin: 25px; }
+
 .sport__wrap {
   display: flex;
   padding-bottom: 120px; }

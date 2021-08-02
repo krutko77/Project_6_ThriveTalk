@@ -1,5 +1,12 @@
 .sport {
 
+   &__title {
+      font: 500 16px "LarsseitMedium";
+      letter-spacing: 1px;
+      text-align: center;
+      margin: 25px;
+   }
+
    &__wrap {
       display: flex;
       padding-bottom: 120px;
