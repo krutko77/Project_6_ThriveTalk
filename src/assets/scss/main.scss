@@ -47,11 +47,10 @@ ul {
    font-size: 24px;
 }
 
-@import './header';
+@import './layout/header';
 @import './menu';
 @import './services';
 @import './about';
-@import './holder';
 @import './sport';
-@import './grid';
-@import './footer';
+@import './layout/grid';
+@import './layout/footer';

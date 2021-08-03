@@ -30,24 +30,24 @@
          right: -155px;
          background: url('./../images/header-bg-img-deg.png') no-repeat;
          background-position: -205px -305px;
-         background-color: white;
          // z-index: 3;
       }
    }
 
-   // &__position {
-   //    position: relative;
+   &__container {
+      position: relative;
+      overflow: hidden;
 
-   //    &::after {
-   //       content: "";
-   //       width: 395px;
-   //       height: 840px;
-   //       position: absolute;
-   //       top: 0;
-   //       right: -70px;
-   //       background-color: white;
-   //    }
-   // }
+      // &::after {
+      //    content: "";
+      //    width: 395px;
+      //    height: 840px;
+      //    position: absolute;
+      //    top: 0;
+      //    right: -70px;
+      //    background-color: white;
+      // }
+   }
 
    &__top {
       display: flex;
