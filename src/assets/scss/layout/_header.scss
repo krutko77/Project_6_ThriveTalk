@@ -4,6 +4,7 @@
    &__inner {
       padding: 20px 130px 0 180px;
       position: relative;
+      overflow: hidden;
 
       &::before {
          content: "";
@@ -36,7 +37,6 @@
 
    &__container {
       position: relative;
-      overflow: hidden;
 
       // &::after {
       //    content: "";
@@ -54,6 +54,13 @@
       justify-content: space-between;
       align-items: center;
       margin-bottom: 170px;
+      position: relative;
+      z-index: 10;
+   }
+
+   &__content {
+      position: relative;
+      z-index: 10;
    }
 
    &__title {
@@ -87,12 +94,13 @@
       font: 700 14px "LarsseitBold";
       color: white;
       cursor: pointer;
-      z-index: 999;
+      position: relative;
+      z-index: 10;
    }
 
    &__links {
       display: flex;
-      // margin-bottom: 75px;
+      margin-bottom: 75px;
    }
 
    &__link {
@@ -105,7 +113,7 @@
       letter-spacing: 3px;
       color: #F9B640;
       margin-right: 25px;
-      margin-bottom: 75px; 
+      margin-bottom: 75px;
 
       &:last-child {
          margin-right: 0;

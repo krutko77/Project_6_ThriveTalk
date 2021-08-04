@@ -345,7 +345,8 @@ ul {
   background: linear-gradient(#F4F9E2, #F7F9EE); }
   .header__inner {
     padding: 20px 130px 0 180px;
-    position: relative; }
+    position: relative;
+    overflow: hidden; }
     .header__inner::before {
       content: "";
       width: 810px;
@@ -368,13 +369,17 @@ ul {
       background: url("./../images/header-bg-img-deg.png") no-repeat;
       background-position: -205px -305px; }
   .header__container {
-    position: relative;
-    overflow: hidden; }
+    position: relative; }
   .header__top {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 170px; }
+    margin-bottom: 170px;
+    position: relative;
+    z-index: 10; }
+  .header__content {
+    position: relative;
+    z-index: 10; }
   .header__title {
     max-width: 460px;
     font: 700 48px "LarsseitBold";
@@ -400,9 +405,11 @@ ul {
     font: 700 14px "LarsseitBold";
     color: white;
     cursor: pointer;
-    z-index: 999; }
+    position: relative;
+    z-index: 10; }
   .header__links {
-    display: flex; }
+    display: flex;
+    margin-bottom: 75px; }
   .header__link {
     display: flex;
     justify-content: center;
@@ -459,11 +466,9 @@ ul {
   .services__font-size {
     font: 700 24px "LarsseitBold";
     line-height: 36px; }
-  .services__wrapper {
-    width: 915px; }
   .services__img {
-    width: 100%;
-    object-fit: cover; }
+    object-fit: cover;
+    max-width: 100%; }
 
 .about__wrap {
   display: flex;
@@ -701,7 +706,8 @@ ul {
   color: #22356F; }
 
 .footer__img {
-  object-fit: cover; }
+  object-fit: cover;
+  max-width: 100%; }
 
 .footer__info {
   max-width: 180px;

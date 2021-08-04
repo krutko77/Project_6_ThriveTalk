@@ -30,17 +30,8 @@
       line-height: 36px;
    }
 
-   &__wrapper {
-      width: 915px;
-   }
-
-   // &__img-wrap {
-   //    // object-fit: cover;
-
-   // }
-
    &__img {
-      width: 100%;
       object-fit: cover;
+      max-width: 100%;
    }
 }
